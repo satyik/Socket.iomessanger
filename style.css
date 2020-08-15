@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,700;1,400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+#messagecontainer{
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+}
+#messagecontainer div{
+    background-color: aqua;
+    padding: 10px 30px;
+    margin: 10px;
+    color: blue;
+    font-size: large;
+    font-weight: 800;
+    border-radius: 30px;
+    text-align: end;
+    box-shadow: 0px 0px 3px 1px #888888;
+    font-family: 'Libre Caslon Text', serif;
+}
+#messagecontainer div:nth-child(2n){
+    background-color: aquamarine;
+    font-family: 'Libre Caslon Text', serif;
+}
+#sendcontainer {
+position: fixed;
+padding-bottom: 30px;
+bottom: 0;
+max-width: 500px;
+width: 80%;
+display: flex;
+}
+#sendcontainer form{
+padding: 10px 30px;
+margin: 10px;
+font-size: large;
+font-weight: 800;
+border-radius: 50px;
+background-color: white;
+}
+#sendcontainer button{
+    padding: 10px 30px;
+    margin: 10px;
+    font-size: large;
+    font-weight: 800;
+    border-radius: 50px;
+    background-color: white;
+}
+#sendcontainer button:hover{
+   background-color: chartreuse;
+}   
+
+#messageinput {
+flex-grow: 1;
+}
